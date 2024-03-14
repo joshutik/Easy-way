@@ -1,0 +1,22 @@
+/* .header{
+    background-image: url(./assets/Images/stylish-happy-afro-woman-wear-orange-jumper-laughing-reading-message-chatting-social-media_165285-1961-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
+*{
+    font-family: "Montserrat", sans-serif;
+}
+
+.header-img {
+    width: 100% !important;
+}
+
+nav {
+    background-color: darkgray !important;
+}
+
+.card {
+    
+    min-height: 65vh !important;
+}
