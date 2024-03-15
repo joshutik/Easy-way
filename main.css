@@ -20,3 +20,21 @@ nav {
     
     min-height: 65vh !important;
 }
+
+.small-screen {
+    background-image:linear-gradient(60deg,rgba(0, 0, 0, 0.904),rgba(0, 0, 0, 0.504)), url(./assets/Images/stylish-happy-afro-woman-wear-orange-jumper-laughing-reading-message-chatting-social-media_165285-1961-removebg-preview.png);
+    background-size: cover;
+    background-position: center;
+
+}
+
+/* .......................
+Our sevices 
+.........................*/
+
+.serv-img{
+background-image:linear-gradient(rgba(0, 0, 0, 0.518), black), url(./assets/Images/cytonn-photography-n95VMLxqM2I-unsplash.jpg);
+background-size: cover;
+background-position: center;
+height: 40vh;
+}
