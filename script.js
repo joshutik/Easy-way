@@ -1,0 +1,1 @@
+let serviceCard = document.getElementById('serv-card');
