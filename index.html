@@ -15,14 +15,18 @@
         rel="stylesheet">
     <!-- AOS -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- BOOTSTRAP ICON -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <title>Easybillz Multipurpose</title>
 </head>
 
 <body>
     <!-- nav bar -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary py-2 fw-bold fixed-top">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fw-bold fixed-top">
         <div class="container">
-            <a class="navbar-brand" href="index.html">logo</a>
+            <a class="navbar-brand" href="index.html">
+                <img src="./assets/Images/logo.png" alt="" width="100">
+            </a>
             <button class="navbar-toggler bg-primary" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -47,10 +51,10 @@
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-light" href="#">About Us</a>
+                        <a class="nav-link text-light" href="about.html">About Us</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-light" href="#">Contact</a>
+                        <a class="nav-link text-light" href="contact.html">Contact</a>
                     </li>
 
                 </ul>
@@ -58,7 +62,6 @@
         </div>
     </nav>
     <!-- hero-section -->
-
     <section class="shadow d-none d-sm-none d-md-none d-lg-block">
         <div class="container">
             <div class="row align-items-center justify-content-center min-vh-100 mt-sm-5">
@@ -84,9 +87,9 @@
 
     <!-- Display only on small screen -->
     <section class="shadow small-screen d-sm-block d-md-block d-lg-none">
-        <div class="container ">
+        <div class="container">
             <div class="row align-items-center justify-content-center min-vh-100 mt-sm-5">
-                <div class="col-lg-6 col-md-6 col-sm-12 pt-5 mt-5" data-aos="fade-right">
+                <div class="col-lg-12 col-md-10 col-sm-12 pt-5 mt-5" data-aos="fade-right">
                     <h2 class="display-4 fw-bold mt-sm-5 text-primary">Welcome to Easybillz Co-operative.</h2>
                     <p class="my-4 text-light">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -98,17 +101,14 @@
                         <button class="btn btn-primary">Learn More</button>
                     </div>
                 </div>
-                <!-- <div class="col-lg-6 col-md-6 col-sm-12 my-sm-5" data-aos="fade-left">
-                    <img src="./assets/Images/stylish-happy-afro-woman-wear-orange-jumper-laughing-reading-message-chatting-social-media_165285-1961-removebg-preview.png"
-                        class="img-fluid header-img">
-                </div> -->
+
             </div>
         </div>
     </section>
     <!--Our  Services -->
-    <section class=" mb-5 py-5 bg-body-tertiary">
+    <section class=" mb-lg-5 py-lg-5 bg-body-tertiary">
         <div class="container text-center">
-            <div class="">
+            <!-- <div class="">
                 <h2 class="text-primary fw-bold my-3">Our Services</h2>
                 <h5 class="my-3 opacity-0">How it works</h5>
                 <p>
@@ -116,11 +116,11 @@
                     care of the needs, either through settling it directly or getting the equivalent fund as saved or
                     invested.
                 </p>
-            </div>
+            </div> -->
 
-            <div class="row px-5 py-5 gy-4">
+            <!-- <div class="row  py-5 gy-4">
                 <div class="col-lg-3 col-md-6 col-sm-12">
-                    <!-- savings card -->
+                    savings card
                     <div class="card shadow " data-aos="fade-up" data-aos-duration="3000" data-aos-easing="linear">
                         <div>
                             <img src="./assets/Images/undraw_Savings_re_eq4w.png" class="img-fluid w-100" alt="">
@@ -128,17 +128,16 @@
                         <div class="card-body">
                             <h5 class="card-title">Savings</h5>
                             <p class="card-text">
-                                Lorem ipsum dolor sit amet consectetur
-                                adipisicing elit. Qui ullam,
-                                assumenda illum omnis delectus optio
-                                possimus repellendus in! Laboriosam, possimus.
+                                Savings are crucial aspect of financial healthand stabilty.
+                                And we want to be able to help youachieve the heightest level of
+                                finiancial seecurity and ease. With easy bills you do not just save to earn.
                             </p>
                             <a href="#" class="btn btn-primary my-3">Learn More</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-12">
-                    <!-- loans card -->
+                    loans card
                     <div class="card shadow py-2" data-aos="fade-up" data-aos-duration="3000" data-aos-easing="linear">
                         <div class="mt-3">
                             <img src="./assets/Images/undraw_Online_payments_re_y8f2.png" class="img-fluid w-100"
@@ -157,7 +156,7 @@
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-12">
-                    <!-- investment card -->
+                    investment card
                     <div class="card shadow" data-aos="fade-up" data-aos-duration="2000" data-aos-easing="linear">
                         <div>
                             <img src="./assets/Images/undraw_Pay_online_re_aqe6.png" class="img-fluid w-100" alt="">
@@ -175,7 +174,7 @@
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-12">
-                    <!-- fininacial mgt/ consulting card -->
+                    fininacial mgt/ consulting card
                     <div class="card shadow" data-aos="fade-up" data-aos-duration="2000">
                         <div>
                             <img src="./assets/Images/undraw_Online_chat_re_c4lx.png" class="img-fluid w-100" alt="">
@@ -192,13 +191,169 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
         </div>
+        <section>
+            <div class="container-fluid">
+                <section class=" mb-5 py-5 bg-body-tertiary">
+                    <div class="container text-center">
+                        <div class="text-center my-4">
+                            <h5 class="my-3 opacity-0">How we do it</h5>
+                            <p class=" mx-auto">
+                                We set up various savings and investments communities that upon subscription and
+                                payments,
+                                is
+                                aimed at taking care of the billing of concern or manage your fund until needed and as
+                                well
+                                advise on possible ways of managing or investing.
+                            </p>
+                        </div>
+
+                        <div class="row py-5 gy-4 justify-content-center">
+                            <div class="col-lg-4 col-md-6 col-sm-12">
+                                <!-- savings card -->
+                                <div class="card shadow-lg h-100 serv-card" data-aos="fade-up" data-aos-duration="3000"
+                                    data-aos-easing="linear">
+                                    <div>
+                                        <img src="./assets/Images/undraw_Savings_re_eq4w.png" class="img-fluid w-100"
+                                            alt="">
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title">Savings</h5>
+                                        <p class="card-text">
+                                            Savings are crucial aspect of financial healthand stabilty.
+                                            And we want to be able to help youachieve the heightest level of
+                                            finiancial seecurity and ease. With easy bills you do not just save to earn.
+                                        </p>
+                                        <a href="#" class="btn btn-primary my-3">Get Started</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-12">
+                                <!-- loans card -->
+                                <div class="card shadow-lg h-100 py-2 serv-card" data-aos="fade-up" data-aos-duration="3000"
+                                    data-aos-easing="linear">
+                                    <div class="mt-3">
+                                        <img src="./assets/Images/premium-cash-reward-bonus-work-done-best-employee-rewarding-promotion-order-efficiency-stimulation-boss-subordinate-cartoon-characters_335657-2984.jpg"
+                                            class="img-fluid w-75" alt="">
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title">Loans</h5>
+                                        <p class="card-text word-wrap">
+                                            We offer loans to suit a veriety of needs and circurmstances.
+                                            Our goal is to provide financial assistance eather you are looking for
+                                            funds for a new business, venture, purchase a home, or cover Unexpected
+                                            expenses
+                                            we are here to help at regulated and affordable interest rates.
+                                        </p>
+                                        <a href="#" class="btn btn-primary my-3">Get Started</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-12">
+                                <!-- investment card -->
+                                <div class="card shadow h-100 serv-card" data-aos="fade-up" data-aos-duration="2000"
+                                    data-aos-easing="linear">
+                                    <div>
+                                        <img src="./assets/Images/undraw_Pay_online_re_aqe6.png" class="img-fluid w-100"
+                                            alt="">
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title">Investment</h5>
+                                        <p class="card-text">
+                                            Our investment is a purposefully motivated one aimed at
+                                            easing an aspect of your Bills. we are focused on easing the finiancial
+                                            goals
+                                            and billings
+                                            of members and clients. the ROR is designrd or
+                                            tailored to ease a particula bill or bills.
+                                        </p>
+                                        <a href="#" class="btn btn-primary my-3">Get Started</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row py-5 gy-4 gx-5 justify-content-center">
+                            <div class="col-lg-4 col-md-6 col-sm-12">
+                                <!-- fininacial mgt/ consulting card -->
+                                <div class="card shadow h-100 serv-card" data-aos="fade-up" data-aos-duration="2000">
+                                    <div>
+                                        <img src="./assets/Images/undraw_Online_chat_re_c4lx.png"
+                                            class="img-fluid w-100" alt="">
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title">Cash Delivery</h5>
+                                        <p class="card-text">
+                                            We offer Cash Delivery service, a very convinient
+                                            and secure way to recieve funds without getting stressed.
+                                            where ever you are we can get any amount of cash to you.
+                                        </p>
+                                        <a href="#" class="btn btn-primary my-3">Get Started</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-12">
+                                <!-- fininacial mgt/ consulting card -->
+                                <div class="card shadow h-100 serv-card" data-aos="fade-up" data-aos-duration="2000">
+                                    <div>
+                                        <img src="./assets/Images/undraw_Online_chat_re_c4lx.png"
+                                            class="img-fluid w-100" alt="">
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title">Business Development</h5>
+                                        <p class="card-text">
+                                            In many cases people have money but do not know
+                                            where to put the money or invest in.
+                                            we can help set up profitable business for you,
+                                            manage it and make sure it gets the
+                                            right structure before handing it over to you.
+                                            Easybillz is the future you've been dreaming about.
+                                        </p>
+                                        <a href="#" class="btn btn-primary my-3">Get Started</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-12">
+                                <!-- fininacial mgt/ consulting card -->
+                                <div class="card shadow h-100 serv-card" data-aos="fade-up" data-aos-duration="2000">
+                                    <div>
+                                        <img src="./assets/Images/undraw_Online_chat_re_c4lx.png"
+                                            class="img-fluid w-100" alt="">
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title">Bill Management</h5>
+                                        <p class="card-text">
+                                            A lot of times bills could get too stressful and
+                                            complex to handle, now you no longer have to worry
+                                            about that because we can help you handle all theos bills
+                                            without you lifting a finger.
+                                        </p>
+                                        <a href="#" class="btn btn-primary my-3">Get Started</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ?end of cars -->
+
+                    <div class="text-center my-4">
+                        <h5 class="my-3 opacity-0">How it works</h5>
+                        <p class="mx-auto px-5">
+                            A new member registers and chose a savings or investment plan and the savings or RoI is used
+                            to
+                            take care of the needs, either through settling it directly or getting the equivalent fund
+                            as
+                            saved or invested.
+                        </p>
+                    </div>
+                </section>
+            </div>
+        </section>
         <!-- ?end of cars -->
     </section>
 
     <!-- About us -->
-    <section class="bg-body-tertiary shadow">
+    <section class="bg-body-tertiary mt-1 shadow">
         <div class="container-fluid">
             <div class="row justify-content-center align-items-center">
                 <div class="col-lg-4 col-md-6 col-sm-12 p-5" data-aos="fade-right" data-aos-offset="300"
@@ -210,9 +365,9 @@
                         It's built on the founding members drives to sort out recurrent expenditures and billz,
                         financial demands of their businesses and everyday bills, manage their savings through savings
                         and investments portfolios that's focus on individual's billz and needs.
-                        The purpose is that through their savings and investments, their recurrent billz will be taken
+                        <!-- The purpose is that through their savings and investments, their recurrent billz will be taken
                         care of by their ROI or savings, thereby easing the burden of settling these bills as it's
-                        constantly taken care of by the investment and savings...
+                        constantly taken care of by the investment and savings... -->
 
                     </p>
                     <div>

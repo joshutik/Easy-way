@@ -8,6 +8,12 @@
     font-family: "Montserrat", sans-serif;
 }
 
+.f-logo{
+    height: 100px !important;
+    width: auto !important;
+    object-fit: fill !important;
+}
+
 .header-img {
     width: 100% !important;
 }
@@ -40,11 +46,13 @@ background-position: center;
 height: 40vh;
 }
 
+
+
 .serv-card{
     cursor: pointer !important;
 }
 .serv-card:hover{
-    transform: scale(1.1, 1.1);
-    transition: 2s;
+    transform: scale(1.1, 1.1) !important;
+    transition: 2s !important;
 
 }
